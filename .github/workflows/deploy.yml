@@ -9,7 +9,7 @@ jobs:
   Deploy:
     runs-on: ubuntu-latest
     steps:
-      - names: ssh(원격접속)로 ec2에 접속하기
+      - name: ssh(원격접속)로 ec2에 접속하기
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST }}
