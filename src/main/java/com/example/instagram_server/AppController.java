@@ -8,7 +8,7 @@ public class AppController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello, World!";
+        return "hi, World!";
     }
 
 }
