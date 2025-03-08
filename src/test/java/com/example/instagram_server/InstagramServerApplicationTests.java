@@ -8,7 +8,7 @@ class InstagramServerApplicationTests {
 
 	@Test
 	void contextLoads() {
-
+		System.out.println("hello");
 	}
 
 }
