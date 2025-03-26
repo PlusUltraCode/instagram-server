@@ -59,3 +59,4 @@
               docker rm instagram-server || true
               docker pull 430118833376.dkr.ecr.ap-northeast-2.amazonaws.com/instagram-server:latest
               docker run -d --name instagram-server -p 8080:8080 430118833376.dkr.ecr.ap-northeast-2.amazonaws.com/instagram-server:latest
+
